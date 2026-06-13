@@ -1,0 +1,9 @@
+num_of_lunch = int(input("How many times a week do you eat at the student cafeteria?: "))
+price = float(input("The price of a typical student lunch?: "))
+money = float(input("How much money do you spend on groceried in a week?: "))
+
+print("")
+
+print("Average food expenditure:")
+print("Daily:", (num_of_lunch * price + money) / 7, "euros")
+print("Weekly:", num_of_lunch * price + money, "euros")  
