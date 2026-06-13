@@ -1,0 +1,17 @@
+num1 = int(input("Enter value 1 :"))
+num2 = int(input("Enter value 2 :")) 
+
+add = num1 + num2
+subtract = num1 - num2 
+multiply = num1 * num2 
+
+operation = input("Operation: ")
+
+if operation == "add": 
+    print(num1, "+", num2, "=", add)
+
+if operation == "subtract": 
+    print(num1, "-", num2, "=", subtract)
+
+if operation == "multiply": 
+    print(num1, "*", num2, "=", multiply)
