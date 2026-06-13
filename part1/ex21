@@ -1,0 +1,9 @@
+no_of_students = int(input("How many students on the course?: "))
+grp_size = int(input("Desired group size?: "))
+groups_formed = no_of_students // grp_size
+
+if no_of_students % grp_size == 0:
+    print("Number of groups formed:", groups_formed)
+
+else:
+    print("Number of groups formed:", groups_formed + 1 )
