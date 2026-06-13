@@ -1,0 +1,2 @@
+days = int(input("How many days? "))
+print(f"Seconds in that many days: {days * 24 *60 * 60}") #24 hours in a day, 60 minutes in a day, 60 seconds in a minute
